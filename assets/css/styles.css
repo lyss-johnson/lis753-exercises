@@ -1,11 +1,11 @@
 body {
-  background-color: #BFC0C0;
-  font-family: arial, sans-serif;
+  background-color: #d6d6d6;
+  font-family: Trebuchet, sans-serif;
   color: #302F2F;
 }
 
 .wrapper {
-  background: #ffffff;
+  background-color: #ffffff;
   width: 92%;
   max-width: 800px;
   margin: 0 auto;
@@ -22,11 +22,11 @@ h2{
 }
 
 h1, h2 {
-  color: #99762A;
+  color: #2a5178;
 }
 
 blockquote {
-  border-left: 4px solid #8B9AA5;
+  border-left: 4px solid #b6b6b6;
   padding-left: 12px;
   background-color: #f9f9f9;
   margin-left: 0;
@@ -58,4 +58,24 @@ ul {
 
 p {
   line-height: 1.4em;
+}
+
+header{
+  background-image: url(../images/tree_bark.png);
+  text-align: center;
+  border-bottom: 2px solid #d6d6d6;
+}
+
+#footer-details{
+  background-image: url(../images/tree_bark.png);
+  font-size: x-small;
+  text-align: center;
+  padding: 20px 20px;
+  border-top: 2px solid #d6d6d6
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
 }
