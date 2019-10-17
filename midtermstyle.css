@@ -1,0 +1,93 @@
+body {
+  background-color: #2c3b06;
+  font-family: Trebuchet, sans-serif;
+  color: #011914;
+}
+
+.wrapper {
+  background-color: #ffffff;
+  width: 92%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 12px 20px;
+}
+
+h1 {
+  margin-bottom: .5em;
+}
+
+h2{
+  margin-bottom: .25em;
+  margin-top: 1em;
+}
+/*h1 and h2 margins to provide spacing for design reasons*/
+
+h1, h2 {
+  color: #2c3b06;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+header{
+  background-image: url(assets/images/lined_paper.png);
+  text-align: center;
+  border-bottom: 2px solid #4f690b;
+}
+
+ul{
+  line-height: 1.4em;
+  padding-right: 1.5em;
+}
+
+.image {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2.25em;
+}
+/*margins adding spacing to subsections in larger sections*/
+
+.caption {
+  font-style: italic;
+  font-size: small;
+  margin-top: .25em;
+}
+
+.headbullets{
+  font-size: large;
+}
+
+.subbullets{
+  margin: 10px 0;
+  list-style-type: circle;
+  margin-left: 1.5em;
+}
+/*left margin here adding artificial intent to denote subsections from the main sections and changing bullet type*/
+
+#footer-details{
+  background-image: url(assets/images/lined_paper.png);
+  font-size: x-small;
+  text-align: center;
+  padding: 20px 20px;
+  border-top: 2px solid #d6d6d6
+}
+/*directly applying style to footer by id name*/
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+  .headbullets{
+    font-size: 14px;
+  }
+  .caption{
+    font-size: 10px;
+  }
+}
+/*adjusting font sizes when screen with is less than 500px*/
