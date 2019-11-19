@@ -97,6 +97,34 @@ form {
   padding-top: 14px;
 }
 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+}
+
+th {
+  text-align: center;
+}
+
+table#t01 {
+  width: 100%;
+}
+
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+caption {
+  font-style: italic;
+}
+
 @media only screen and (max-width: 500px) {
   body {
     font-size: 12px;
