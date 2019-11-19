@@ -29,7 +29,7 @@ h2{
   margin-top: 1em;
 }
 
-h1, h2 {
+h1, h2, legend {
   color: #2a5178;
 }
 
@@ -91,6 +91,10 @@ article {
 
 aside h2 {
   font-size: 1.4rem;
+}
+
+form {
+  padding-top: 14px;
 }
 
 @media only screen and (max-width: 500px) {
