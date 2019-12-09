@@ -1,4 +1,4 @@
-* {
+aside .img {
   box-sizing: border-box;
 }
 
@@ -31,13 +31,6 @@ h2{
 
 h1, h2, h3, legend {
   color: #424949;
-}
-
-blockquote {
-  border-left: 4px solid #b6b6b6;
-  padding-left: 12px;
-  background-color: #f9f9f9;
-  margin-left: 0;
 }
 
 .image {
@@ -123,17 +116,4 @@ table#t01 tr:nth-child(odd) {
 
 caption {
   font-style: italic;
-}
-
-@media only screen and (max-width: 500px) {
-  body {
-    font-size: 12px;
-  }
-}
-
-@media all and (min-width: 920px) {
-
-  aside h2:first-child {
-    margin-top: 14px;
-  }
 }
